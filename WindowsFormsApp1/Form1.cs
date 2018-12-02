@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void login_Label(object sender, EventArgs e)
+        private void Login_Label(object sender, EventArgs e)
         {
 
         }
@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void userName_TextBoxChanged(object sender, EventArgs e)
+        private void userName_TextChanged(object sender, EventArgs e)
         {
 
         }

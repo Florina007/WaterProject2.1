@@ -48,7 +48,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "LOGIN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.login_Label);
+            this.label1.Click += new System.EventHandler(this.Login_Label);
             // 
             // label2
             // 
@@ -104,7 +104,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged += new System.EventHandler(this.userName_TextChanged);
             // 
             // textBox2
             // 
