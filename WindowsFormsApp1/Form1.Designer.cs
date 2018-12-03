@@ -68,6 +68,7 @@
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password:";
+            this.label3.Click += new System.EventHandler(this.password_Label);
             // 
             // checkBox1
             // 
@@ -88,6 +89,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.closeButton);
             // 
             // button2
             // 
@@ -95,8 +97,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Sign In";
+            this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.loginButton);
             // 
             // textBox1
             // 
@@ -112,6 +115,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 7;
+            this.textBox2.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // Form1
             // 

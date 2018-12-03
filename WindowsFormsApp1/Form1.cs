@@ -17,9 +17,13 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        public void Form1_Shown(object sender, EventArgs e)
+        {
+            this.Focus();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void Login_Label(object sender, EventArgs e)
@@ -34,10 +38,29 @@ namespace WindowsFormsApp1
 
         private void userName_TextChanged(object sender, EventArgs e)
         {
+            
+        }
+
+        private void password_Label(object sender, EventArgs e)
+        {
 
         }
 
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeButton(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void loginButton(object sender, EventArgs e)
         {
 
         }
