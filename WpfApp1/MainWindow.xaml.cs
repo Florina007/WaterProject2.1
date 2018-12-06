@@ -24,5 +24,35 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void contractsMenu(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void customerMenu(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void machinesMenu(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void feedbackMenu(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void serviceMenu(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

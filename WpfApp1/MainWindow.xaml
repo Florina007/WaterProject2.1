@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Main Menu" Height="450" Width="500">
     <Grid>
-        <Label Content="Dashboard"/>
+        <Rectangle Height="50" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2281D1"/>
+                    <GradientStop Color="#FF34268A" Offset="1"/>
+                    <GradientStop Color="#FF33288B" Offset="0.546"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <ComboBox Name="accountBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="345,10,0,0">
+            <ComboBoxItem Name="profileBox" Content="Profile" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Name="scheduleBox" Content="Schedule" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Name="logoutBox" Content="Log out" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <DockPanel Height="369" LastChildFill="False" Margin="0,50,0,0" Grid.RowSpan="2" VerticalAlignment="Top" >
+            <Menu Height="369" VerticalAlignment="Top" Width="100">
+                <MenuItem Header="Contracts" Height="50" Width="100" Click="contractsMenu"/>
+                <MenuItem Header="Customers" Height="50" Width="100" Click="customerMenu"/>
+                <MenuItem Header="Machines" Height="50" Width="100" Click="machinesMenu"/>
+                <MenuItem Header="Feedback" Height="50" Width="100" Click="feedbackMenu"/>
+                <MenuItem Header="Service" Height="50" Width="100" Click="serviceMenu"/>
+                <MenuItem Header="Employees" Height="50" Width="100"/>
+            </Menu>
+            <Canvas/>
+        </DockPanel>
     </Grid>
 </Window>

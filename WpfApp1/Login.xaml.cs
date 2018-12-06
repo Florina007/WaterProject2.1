@@ -38,7 +38,7 @@ namespace WpfApp1
                     SqlCommand sqlCmd = new SqlCommand(query, sqlCon);
                     sqlCmd.CommandType = CommandType.Text;
                     sqlCmd.Parameters.AddWithValue("@Username", txtUsername.Text);
-                    sqlCmd.Parameters.AddWithValue("@Password", passBox.Password);
+                    sqlCmd.Parameters.AddWithValue("@Password", txtPass.Password);
 
                     int IsValidUser = Convert.ToInt32(sqlCmd.ExecuteScalar());
                     if (IsValidUser == 1)
@@ -51,12 +51,12 @@ namespace WpfApp1
                     }
                     else
                     {
-                        MessageBox.Show("invalid userid or word");
+                        MessageBox.Show("Invalid Username or Password");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Userid and word is required");
+                    MessageBox.Show("Username and Password is required");
                 }
             }
             catch(Exception ex)
@@ -68,6 +68,11 @@ namespace WpfApp1
                 sqlCon.Close();
             }
             
+        }
+
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
