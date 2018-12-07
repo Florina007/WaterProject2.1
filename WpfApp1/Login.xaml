@@ -35,7 +35,7 @@
             </StackPanel>
         </Grid>
         <Button Click="Button_Click" Width="150" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,65" Content="Login" Cursor="Hand"/>
-        <Button Click="Button_Click2" Width="150" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="30" Content="Close" Foreground="Gray" Cursor="Hand"/>
+        <Button Click="Button_Click2" Width="150" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="30" Content="Close" Cursor="Hand"/>
         <Label Content="Username" HorizontalAlignment="Left" Margin="53,175,0,0" VerticalAlignment="Top" Foreground="Gray" FontFamily="Champagne &amp; Limousines" FontSize="16" Height="66"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="53,222,0,0" VerticalAlignment="Top" Foreground="Gray" FontFamily="Champagne &amp; Limousines" FontSize="16" Height="80"/>
     </Grid>

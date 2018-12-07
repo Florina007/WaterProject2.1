@@ -21,7 +21,7 @@
             <ComboBoxItem Name="scheduleBox" Content="Schedule" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Name="logoutBox" Content="Log out" HorizontalAlignment="Left" Width="118"/>
         </ComboBox>
-        <DockPanel Height="369" LastChildFill="False" Margin="0,50,0,0" Grid.RowSpan="2" VerticalAlignment="Top" >
+        <DockPanel Height="370" LastChildFill="False" Margin="0,50,0,0" Grid.RowSpan="2" VerticalAlignment="Top" >
             <Menu Height="369" VerticalAlignment="Top" Width="100">
                 <MenuItem Header="Contracts" Height="50" Width="100" Click="contractsMenu"/>
                 <MenuItem Header="Customers" Height="50" Width="100" Click="customerMenu"/>
@@ -30,7 +30,9 @@
                 <MenuItem Header="Service" Height="50" Width="100" Click="serviceMenu"/>
                 <MenuItem Header="Employees" Height="50" Width="100"/>
             </Menu>
-            <Canvas/>
         </DockPanel>
     </Grid>
+
 </Window>
+    
+    
