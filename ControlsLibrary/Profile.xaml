@@ -1,0 +1,53 @@
+﻿<Window x:Class="ControlsLibrary.Profile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ControlsLibrary"
+        mc:Ignorable="d"
+        Title="Profile" Height="500" Width="650"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        FontFamily="Segoe UI Emoji">
+    <Grid>
+        
+
+        <Rectangle Height="280" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2281D1"/>
+                    <GradientStop Color="#FF34268A" Offset="1"/>
+                    <GradientStop Color="#FF33288B" Offset="0.546"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Height="329" VerticalAlignment="Bottom" Margin="38,0,35,80" RadiusY="10" RadiusX="10" Fill="White" Grid.Column="1">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="33.219,0,35,79" Height="240" Grid.Column="1">
+            <Label Content="USERNAME" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="242,-60,235.781,0" Foreground="Gray" FontSize="18"/>
+            <Label Content="Employee/Manager" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="227,-91,204.781,0" Foreground="Gray" FontSize="16"/>
+            <Image HorizontalAlignment="Left"  Margin="325,-230" Height="70" VerticalAlignment="Top" Width="70" Source="C:\Users\Cristian\Desktop\WaterLogic\MainClient\img\profilepic.png"/>
+        </Grid>
+        <Button Width="98"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="68,0,0,141" FontSize="16" FontStyle="Normal" Content="Edit Account" Cursor="Hand" Height="24" Grid.Column="1" RenderTransformOrigin="0.469,1.3"/>
+        <Button Width="98"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="69,0,0,98" FontSize="12" FontStyle="Normal" Content="Change Password" Cursor="Hand" Height="24" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="30" Margin="38,378,0,0" Source="C:\Users\Cristian\Desktop\WaterLogic\MainClient\img\changepassword.png" Grid.Column="1" RenderTransformOrigin="2.237,-0.816"/>
+        <Image HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20" Margin="42,338,0,0" Source="C:\Users\Cristian\Desktop\WaterLogic\MainClient\img\editaccount.png" Grid.Column="1"/>
+        <Label Content="Contact information" HorizontalAlignment="Left" Margin="51,181,0,0" FontFamily="Champagne &amp; Limousines" FontSize="18" VerticalAlignment="Top" Height="31" Width="169" Grid.Column="1"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="51,212,0,0" FontFamily="Champagne &amp; Limousines" FontSize="23" Foreground="Gray" VerticalAlignment="Top" Height="31" Width="169" Grid.Column="1"/>
+        <TextBox Text="user@email.com" HorizontalAlignment="Left" Margin="56,248,0,0" FontFamily="Champagne &amp; Limousines" FontSize="18" VerticalAlignment="Top" Height="49" Width="164" Grid.Column="1"/>
+        <Label Content="Adress" HorizontalAlignment="Left" Margin="220,217,0,0" FontFamily="Champagne &amp; Limousines" FontSize="23" Foreground="Gray" VerticalAlignment="Top" Height="31" Width="169" Grid.Column="1"/>
+        <TextBox Text="Le adress" HorizontalAlignment="Left" Margin="220,248,0,0" FontFamily="Champagne &amp; Limousines" FontSize="18" VerticalAlignment="Top" Height="49" Width="187" Grid.Column="1"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="407,217,0,0" FontFamily="Champagne &amp; Limousines" FontSize="23" Foreground="Gray" VerticalAlignment="Top" Height="31" Width="169" Grid.Column="1"/>
+        <TextBox Text="+4550505050" HorizontalAlignment="Left" Margin="407,248,0,0" FontFamily="Champagne &amp; Limousines" FontSize="18" VerticalAlignment="Top" Height="49" Width="186" Grid.Column="1"/>
+        <Label Content="Settings:" HorizontalAlignment="Left" Margin="68,302,0,0" FontFamily="Champagne &amp; Limousines" FontSize="23" Foreground="Gray" VerticalAlignment="Top" Height="36" Width="98" Grid.Column="1"/>
+
+
+
+    </Grid>
+</Window>
