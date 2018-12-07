@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainClient", "..\..\..\..\Desktop\WaterLogic\MainClient\MainClient.csproj", "{0C72404F-2BEC-4FCC-BE5F-D5B00406BC02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsLibrary", "..\..\..\..\Desktop\WaterLogic\ControlsLibrary\ControlsLibrary.csproj", "{91DFAB1C-B655-4B99-A423-0B34D9B0B847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0C72404F-2BEC-4FCC-BE5F-D5B00406BC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C72404F-2BEC-4FCC-BE5F-D5B00406BC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C72404F-2BEC-4FCC-BE5F-D5B00406BC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DFAB1C-B655-4B99-A423-0B34D9B0B847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DFAB1C-B655-4B99-A423-0B34D9B0B847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DFAB1C-B655-4B99-A423-0B34D9B0B847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DFAB1C-B655-4B99-A423-0B34D9B0B847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
